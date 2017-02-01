@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "***********************************"
+
 BUILD_DIR=$1
 CACHE_DIR=$2
 BUILD_PACK_DIR= $(dirname $(dirname $0 ))
@@ -9,7 +11,7 @@ set -o pipefail
 
 cd $BUILD_DIR
 
-echo "start compppiling"
+
 gcc app.c -o app
 
 echo "Creating start script"
