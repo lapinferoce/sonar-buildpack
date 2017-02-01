@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 #bin/detect <build-dir>
 
+echo "hello blue bmix"
+
+
 shopt -s nullglob
 file=(*.c)
 if (( ${#files[@]} > 0 )); then
