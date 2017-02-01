@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cat << EOF
+action:[]
+default_process_types:{
+	web: ./start.sh
+}
+EOF
