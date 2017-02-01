@@ -9,6 +9,7 @@ set -o pipefail
 
 cd $BUILD_DIR
 
+echo "start compppiling"
 gcc app.c -o app
 
 echo "Creating start script"
